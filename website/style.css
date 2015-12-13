@@ -1,0 +1,35 @@
+body{
+	background-color: white;	
+}
+
+div#div1{
+	position: relative;
+	margin: 0 auto;
+	padding-left: 0;
+	padding-right: 0;
+	width:580px;
+	height:470px;
+	border: 10px solid #cce0ff;
+	z-index=1;
+	background-image: url("http://bnt.broadnet-telecom.ca:8082/siteosshtml/resources/images/loginb.jpg");	
+}
+
+#table1{	
+	top:100px;	
+	position: relative;
+	color:#03f0ff;
+	margin: 0 auto;
+	padding-left:10%;
+}
+#login, #username1, #password1{	
+	width:300px;
+	height:30px;
+	border-radius: 5px;
+	color: #4d93ff;
+	text-align:center;
+}
+
+
+th{
+	color: #4d93ff;	
+}
