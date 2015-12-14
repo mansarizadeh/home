@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Hibernate1</groupId>
+  <artifactId>Hibernate1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Hibernate1</name>
+  <description>Hibernate1</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+  </build>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>org.hibernate</groupId>
+  		<artifactId>hibernate-search-orm</artifactId>
+  		<version>5.5.1.Final</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.transaction</groupId>
+  		<artifactId>jta</artifactId>
+  		<version>1.1</version>
+  	</dependency>
+  </dependencies>
+</project>
